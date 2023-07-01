@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.navbar {
+	background-color: rgb(2, 7, 14) !important;
+	padding: 3rem 2rem;
+	height: 0rem;
+	min-height: 12vh;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	color: white !important;
+	display: block;
+	font-family: "Montserrat", sans-serif;
+}
+.navbar .navbar-brand a {
+	padding: 1rem 0;
+	display: block;
+	text-decoration: none;
+}
+.navbar-collapse {
+	background: rgb(2, 7, 14);
+}
+.navbar-brand {
+	font-family: "Ubuntu";
+	color: white !important;
+}
+.navbar-toggler {
+	background: white !important;
+	border: none;
+	padding: 10px 6px;
+	outline: none;
+}
+.navbar-toggler span {
+	display: block;
+	width: 22px;
+	height: 2px;
+	border: 1px;
+	background: black;
+}
+.navbar-toggler span + span {
+	margin-top: 4px;
+	width: 18px;
+	margin-left: 4px;
+}
+
+.navbar-toggler span + span + span {
+	/* margin-left: 10px; */
+	width: 22px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: 2rem 1.2rem;
+
+	position: relative;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+	border-top: 4px solid rgb(42, 226, 73) !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active {
+	color: rgb(42, 226, 73);
+}
+
+button {
+	padding: 9px 25px;
+	background-color: rgb(75 132 57) !important;
+	border: none;
+	border-radius: 50px !important;
+	cursor: pointer;
+	transition: all 0.3s ease 0s !important;
+}
+button:hover {
+	background-color: rgb(0, 73, 10) !important;
+}
+
+body {
+	background-color: rgb(2, 7, 14) !important;
+}
+.topic-nam h1 {
+	font-family: "Ubuntu";
+	text-align: center;
+	color: rgb(42, 226, 73);
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+.content {
+	background-color: rgb(63 140 40);
+	border-radius: 30px;
+}
+
+.content a {
+	display: block;
+	color: yellow !important;
+	text-decoration: none !important;
+	background-color: none !important;
+	text-align: left;
+	text-align: center;
+	font-family: 'Arial';
+}
+.heading {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	color: white !important;
+	text-decoration: none;
+	text-align: center;
+}
+
+.top {
+	padding-top: 30px;
+}
+.last {
+	padding-bottom: 30px;
+}
+
+.card-wrap {
+	padding: 20px;
+	width: 100%;
+}
+
+.footer {
+	text-align: center;
+	color: #d2d8da !important;
+	background-color: rgb(63 140 40);
+	height: 12vh;
+	margin-top: 50px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 1200;
+}
